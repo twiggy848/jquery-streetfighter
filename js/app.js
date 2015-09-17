@@ -10,11 +10,17 @@ $(document).ready(function() {
 	.mousedown(function(){
 		$('.ryu-ready').hide();
 		$('.ryu-throwing').show();
-		$('.hadouken').show();
+		$('.hadouken').finish().show().animate(
+			{'left': '1020'},
+			500,
+			function(){
+				$(this).hide();
+				$(this).css('left' , '520px');
+			}
+		);
 	})
 	.mouseup(function(){
 		$('.ryu-ready').show();
 		$('.ryu-throwing').hide();
-		$('.hadouken').hide();
 	});
 });
