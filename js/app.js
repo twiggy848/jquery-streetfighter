@@ -40,7 +40,7 @@ $(document).ready(function() {
 			$('.main').removeClass('ryu-level');
 		}
 	});
-	$('.instructions-content').fadeIn(3000);
+	$('.instructions-content p:first').fadeIn(3000);
 });
 function playHadouken () {
   $('#hadouken-sound')[0].volume = 0.5;

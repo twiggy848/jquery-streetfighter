@@ -59,9 +59,12 @@ body {
 }
 /*INSTRUCTIONS*/
 .instructions-content {
-  width:659px;
+  width:459px;
   height:494px;
-  display: block;
+  position: absolute;
+  right: 200px;
+  padding: 3em;
+  display: none;
 }
 .instructions-content p{
   text-align: center;
