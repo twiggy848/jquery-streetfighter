@@ -4,7 +4,7 @@ body {
 .main {
 	background-color: #fff;
 	margin-top: 110px;
-	padding-left: 100px;
+	padding-left: 200px;
 	min-width: 1200px;
 	height: 500px;
 	position: relative;
@@ -62,13 +62,17 @@ body {
   width:459px;
   height:494px;
   position: absolute;
-  right: 200px;
+  right: 300px;
+  top:30px;
   padding: 3em;
   display: none;
 }
 .instructions-content p{
   text-align: center;
-  font-style: 'Bangers', Arial, sans-serif;
+  font-family: 'Bangers', cursive;
   font-size: 3em;
+}
+.instructions-content p span {
+  color: red;
 }
 }
